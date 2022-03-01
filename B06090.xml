@@ -1,0 +1,426 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Times dissected. Or, A learned discovrse of severall occvrrences very worthy of speciall observation, to deter evill men, and incourage good.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1642</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 6 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B06090</idno>
+            <idno type="STC">Wing T1289</idno>
+            <idno type="STC">ESTC R185073</idno>
+            <idno type="EEBO-CITATION">47012679</idno>
+            <idno type="OCLC">ocm 47012679</idno>
+            <idno type="VID">174645</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B06090)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 174645)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2693:33)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Times dissected. Or, A learned discovrse of severall occvrrences very worthy of speciall observation, to deter evill men, and incourage good.</title>
+               </titleStmt>
+               <extent>[12] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.]</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>Printed in the yeare, 1642.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication taken from Wing (2nd ed.)</note>
+                  <note>Imprint date appears to have been altered.</note>
+                  <note>Facing t.p. contains p. 8 of unknown item.</note>
+                  <note>Reproduction of original in: Universität Göttingen Bibliothek.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  Charles I, 1625-1649.</term>
+               <term>Great Britain --  Church history --  17th century.</term>
+               <term>Great Britain --  Politics and government --  1603-1649</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-10</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2009-10</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:174645:1" rendition="simple:additions"/>
+            <p>THE TIMES DISSECTED. OR, A LEARNED DICOVRSE Of Severall
+OCCVRRENCES Very worthy of SPECIALL OBSERVATION, To deter evill men, and
+in<g ref="char:EOLhyphen"/>courage good.</p>
+            <p>Printed in the yeare, 1642.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:174645:2"/>
+            <pb facs="tcp:174645:2"/>
+            <head>THE TIMES.</head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">E</seg>VROPE</hi> afflicted, mournes, an Age it may be accounted
+when ruine is from time to time; but great Brittaine, as the laſt in the
+world in re<g ref="char:EOLhyphen"/>ſervation of puniſhment, is aſſailed with an Inundation of
+troubles; a Country found no danger, therefore ſought no remedy, as a
+Province, when a Comet hath no relation to it, feares not; this cauſed her
+make no uſe of others harmes, as wiſedome ſhould have done, when a
+neighbours houſe is on fire: there<g ref="char:EOLhyphen"/>fore either becauſe God chaſteneth
+more the faults of us hee loveth, a ſigne of good will, or becauſe he
+puniſheth our er<g ref="char:EOLhyphen"/>rors, he is moſt obliged to pay with revenge; the ſ<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urce of which Malady, if we take the
+Elevation from the paſt, inward or outward cauſes proceed: Firſt, from
+our ſinnes, which did caſt a Epidemicall Lethargy of unthankefulneſſe
+for mer<g ref="char:EOLhyphen"/>cies received, the greateſt ſickneſſe, a conceit of health when
+moſt in danger. The ſecond, becauſe there was not heretofore a perfect
+union twixt England and Scotland, in<g ref="char:EOLhyphen"/>corpor<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ting both into one body and minde, if poſſible it might have
+beene; a reaſon hath cauſed Portugall and Cata<g ref="char:EOLhyphen"/>lonia to revolt from the
+King of Spaine, and Tranſilvania, Va<g ref="char:EOLhyphen"/>lachia, and Moldavia, under Vayvodes,
+and not Baſhaes, eaſily <pb facs="tcp:174645:3"/>elapſed to diſobedience; in theſe
+turbulent, and lachrymable times enter the yeare 1639. when two Armies in
+hoſtile manner oppoſe each other, but cured with a pacification, the ulcer
+not killed, it revived the yeare 1640. inve<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>oming the mindes of both Kingdomes, as in a hecticke, or rather a
+bur<g ref="char:EOLhyphen"/>ning feaver, with much corrupt matter aſcend<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ng: cauſed a new Parociſme to devour the
+ſubſtance of the King and peo<g ref="char:EOLhyphen"/>ple, which was prognoſticated by divine
+anger threatned by the Miniſters, the Church conſpurgated with errors, the
+Common-wealth loaded with projects, Monopolies, and Impoſitions, a Tyrannical
+Government propounded and aſſai<g ref="char:EOLhyphen"/>ed, Parliamentary wayes denied, the Road,
+and Highway to juſtice, the petitions of the people not heard, nor
+anſwe<g ref="char:EOLhyphen"/>red, all which chalked out ruine: whereupon finding their lawfull
+deſires made vaine, they doe not ſo willingly obey the ſoveraignes edicts
+and commands, finding the Diadem led with pernitious councells, ſo that the
+Feaver of diſobedience growing high, the Scots invaded, our ſouldiers had
+no will to fight, the ſubjects no deſire to pay to ſuch a warre, where<g ref="char:EOLhyphen"/>by
+the precepts of the head were of no availe over purſe and ſpirit to
+oppoſe ſuch invaſion, this diſtemper cauſed the King ſummon the
+Peerary to Yorke to conſult and play Phyſitians to cure the preſent
+malady, with a purpoſe King and Lords, might doe all things without the
+Commons; but they out of a ſincere minde petitioned his Majeſty for a
+Parliament, be<g ref="char:EOLhyphen"/>cauſe they could not accompliſh the buſineſſe without
+com<g ref="char:EOLhyphen"/>mon conſent, to ſet in joynt the factions and fractions of the
+Kingdome, which appeared by the miſerable condition, the face of the
+Common-wealth was beheld withall, now bet<g ref="char:EOLhyphen"/>ter by a thouſand degrees (thankes
+be given to God) for ma<g ref="char:EOLhyphen"/>ny wrinckles are worne away, and I hope it will come to
+be in good health, ſince the Parliament cannot be diſſolved till all
+things deſired be accompliſhed, of which the Trieuniall Parliament will be
+the touchſtone to try the truth. But fin<g ref="char:EOLhyphen"/>ding the Epiſcopall government,
+cauſed divers diſtempers in the State by introducing new innovations in the
+Church, as Altars removed for adoration, a new unlawfull oath impoſed 
+<pb facs="tcp:174645:3"/>by the Canons, and not confirmed by the Parliament, with<g ref="char:EOLhyphen"/>out which
+it was of no validity. Secondly, Service ſaid at the Altar, that the greater
+part of the people could not heare, and the Pontificall Divines teaching and
+preaching in bookes, and ſermons, that the King might invade our liberties;
+this cauſed a reſearch of the Epiſcopall power, by whoſe autho<g ref="char:EOLhyphen"/>rity
+this poyſon was infuſed, that a Bill iſſued from the Com<g ref="char:EOLhyphen"/>mons to the
+Lords, and paſſed their Houſe, in all but one point, which was putting
+out of the Houſe; but ſince ſome pride from the Biſhops and Petitions
+from ſome parts of the Kingdome, finding Church and republike impoſtumated,
+the Houſe of Commons hath committed a Bil for the eradicating of roote and
+branch. (Noble Friend) to ſatisfie the appetite of your deſires, I will
+tell you the various opinions of men, ſome there are haters of Reformation,
+and pure formes, like thoſe that live in corrupt aire, cannot breath in pure,
+or uſed to brackiſh water, delight not in ſweet fountaines; others there
+are who adhere to Rome, and would have that forme of Church, which but by a
+paire of ſheeres devides from that Hierarchy, that they might eaſily in
+that path goe to the An<g ref="char:EOLhyphen"/>tichriſtian way, which if it were hedged up, had no
+gap to Babylonian errors, for they found none but the Biſhops, and their
+followers brought in the Arminian and Socinian errors, the bridges for Popery.
+Some they ſay there are who have ſucked in errors at the Vniverſity by
+reading Papiſticall bookes, admitted by the Biſhops, and allowed by the
+Arch<g ref="char:EOLhyphen"/>biſhop of Canterbury, and are ſo infected in judgement, that they had
+need of Spectacles to diſcerne the truth, or of eye ſalve to cure and
+cleere their judgements. Likewiſe others affirme many great Ladies, becauſe
+they are eſteemed, and flattered of Biſhops, would have them in their
+<hi>Pontificalibus,</hi> ſome Proteſtants whoſe knowledge is not great,
+would have them without other reaſon giving them, becauſe they have beene
+bred in that way: And further, the Papiſts whoſe Re<g ref="char:EOLhyphen"/>ligion for the moſt
+part is in reverence and devotion, are mightily for them, becauſe by that
+Hierarchy, they confirme their opinions in Popery, as an antiquity derived from
+Popiſh <pb facs="tcp:174645:4"/>Biſhops, who firſt inſtituted, inducted, and
+confirmed them in the beginning of Queene <hi>Elizabeths</hi> time, ſo that
+all our Pontificall Clergy derive the pedegrees of their rites and ceremonies
+from Rome, ſo that if they are not in the firſt in<g ref="char:EOLhyphen"/>ſtitution, there may
+be a retrogradation to Rome by the ſame ſteps, as in a maze goe backe
+againe the way they came in. The politique ſort finding the predominant
+conſtellation of their aime and pride are carried with other
+conſiderations, that Monarchy had better give a looſe to Hierarchy; for
+there is nothing Ariſtocraticall but Parliaments, which conſiſts of Lords
+Spirituall, Lords Temporall, and Commons, the three laſt are
+Ariſtocraticall: now if one of theſe three be diſſol<g ref="char:EOLhyphen"/>ved, the Monarchy
+wil ſhine cleerer, for that none can oppoſe the Supremacy of the King in
+great Britaine and Ireland, but the Biſhops, who would, if they had
+occaſion, draw the power to themſelves from Rome and <hi>Peter,</hi> and
+diſſeize his Majeſty; moreover ſome of the Lords Spirituall being
+Temporall Lords, it may be feared there may be Parliaments without the
+Temporall Peeres, for ſome of the Biſhops are Tempo<g ref="char:EOLhyphen"/>rall and Spirituall,
+ſo that it is poſſible that the Lords Tempo<g ref="char:EOLhyphen"/>rall may be barred (which God
+forbid.) And further, it is ap<g ref="char:EOLhyphen"/>parent the Commons ſhall paſſe nothing,
+becauſe the Biſhops will not, who ſway the Lords Houſe much with the
+Catho<g ref="char:EOLhyphen"/>lique party and proxies, for this cauſe it were fit the Biſhops were
+hindred of votes. Another Argument is, there is no reaſon they ſhould take
+place of their benefactors, which they doe in the Lords Houſe, which will be,
+if not excluded.</p>
+            <p>The third reaſon, the Nobility and Gentry gave land, and were
+benefactors to Biſhops eſtates, but the erection of Bi<g ref="char:EOLhyphen"/>ſhops came from
+the Pope anciently, as appeares by many records, and therefore their erections
+being Papiſticall, they may come to owe more ſervice to the Pope then to
+the King, which I leave to the conſideration of the Parliament.</p>
+            <p>Now to declare the opinion of Lawyers not Catholicke, there have
+beene Parliaments ſay they without Biſhops, <hi>E.</hi> 1. 24. a Parliament
+held. <hi>Excluſo Clero.</hi> 7. <hi>R.</hi> 2. <hi>cap.</hi> 3. 7.
+<hi>R.</hi> 2. <hi>cap.</hi> 12. No Biſhops, and many other Parliaments had 
+<pb facs="tcp:174645:4"/>no Biſhops, and therefore it is the opinion, of the beſt
+Law<g ref="char:EOLhyphen"/>yers at this day, that they ought to be put out of the Lords Houſe.</p>
+            <p>Laſtly, how many upright and ſincere men have been put out by
+them, and ſilenced.</p>
+            <p>Now let us touch the antiquity of Biſhops, to ſee whether they
+have anciently medled with temporalities or no: From Chriſts time they were
+only Overſeers of Churches in the Apoſtolicall function and
+ſuperintendent Paſtors of the Church, appointed ſo by the Holy Ghoſt,
+<hi>Acts</hi> 20 23 who by common conſent did aſſemble together, in which
+for more orderly proceeding in their charges, they chooſe one a<g ref="char:EOLhyphen"/>mongſt them
+to be Moderator and Preſident, this is he whom after the fathers called
+Biſhop; but not meerely from Chriſt and the Apoſtles, for the name of all
+Elders, and Miniſters in the beginning was Biſhop, which after by the
+uſuall lan<g ref="char:EOLhyphen"/>guage of the fathers, was appropriated to the Preſidentſhip of
+the Elders and Miniſters, therefore it was Saint <hi>Cyprian</hi> reproved
+the Elders for receiving thoſe who were fallen a<g ref="char:EOLhyphen"/>way in time of
+Perſecution; before the Biſhop had adviſed of it with them and others,
+becauſe they ſhould make pub<g ref="char:EOLhyphen"/>licke ſatisfaction; and therefore I conceive
+it an error, that they had not power given before in generall Synods, if any
+ſhould returne to the faith to be reſtored in the interim to the Church,
+upon confeſſion and penitency in the congregation before a Synod called,
+who otherwiſe might deſpaire in the meane time, or by ill counſell fall
+away, ſo that it is apparent that Biſhops did deale in matters of the
+Church government by the counſell and conſent of the Elders and no further;
+but it is obſerved, the Biſhops in every ſucceſſion and in every City
+cauſed all orders for to ſtand as the law, the Prophets, and our Lord did
+preach, as <hi>Hegeſippus</hi> ſaid, but how many an Apoſtolicall waies
+have they introduced contrary to the Scriptures, witneſſe the reverence to
+Altars, kneeling at the Sacrament, and many more; as ſilencing Miniſters
+for matters of conſcience, for no authority hath power of the confcience but
+God, and nothing bindes the conſcience, <pb facs="tcp:174645:5"/>
+               <hi>ſemper &amp; ad
+ſemper,</hi> but the decalogue, ſo that it was never in the primitive times
+heard that the Clergy medled with Temporall affaires, as they now doe, which
+ſuperabundancy of power cauſeth ſuch corruption, impurity of Religion,
+and hurt to the Commonwealth: therefore they ſeeke to crop their power, or
+that they may have no more then in the firſt inſtitu<g ref="char:EOLhyphen"/>tion, and manage
+affaires of Church with primitive temper, to the good of the Common-wealth and
+glory of God, and felicity of the Church, but they have commanded what they
+liſt without controule, &amp; are ſo inſolent as of late, <hi>Laud</hi>
+Arch-Biſhop of Canterburies vices the more viſible were by how much hee was
+more potent in power, and gracious in the Princes eye to perſwade the
+ſequeſtration of zealous and pi<g ref="char:EOLhyphen"/>ous in the Church, and the Majeſty to be
+aloofe off in matter of ſtate, from Miniſters able and ſincere, or elſe
+to give the Soveraigne over to ſuch as might lo<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſe his ſubjects hearts, and cauſe them fall into
+the Malady of diſobedience, a thing incident to miſguided governments, ſo
+he brought in inno<g ref="char:EOLhyphen"/>vations into the Church, making her of a pure Virgin a very
+Strumpet.</p>
+            <p>Ship, Coat, and Conduct money, and other ſterne impoſi<g ref="char:EOLhyphen"/>tions
+he brought in, not according to abilities, but what the Iudges wickedly
+affirmed to be Law, conſtraining inferiours to be inſtruments in execution,
+for hope of advancement, or over awing them by feare; for acts that fill
+Princes coffers with unjuſt demands of money not due, are ever the ruine of
+the firſt founders: times are not bad, but the wicked that live therein make
+them ſo, who are the fathers of ill counſell as well as thoſe who are the
+begetters of bad children, which ſeaſons make the beſt Miniſters
+oftentimes miniſter fuell to illegall and wicked deſires of great men,
+wherein Kings themſelves paſſe not blameleſſe, who chuſe not
+inſtruments by the ballance of merit, but with the ſailes of will and
+paſ<g ref="char:EOLhyphen"/>ſionate affection; for as their mindes are large in reſpect of
+potency, ſo their election is rather to ſatisfie their various humours then
+ſolid judgement, like thoſe who looke for the Philoſophers ſtone, and
+finde out nothing but fine conceits <pb facs="tcp:174645:5"/>not worthy the looking for. The
+Biſhop alone manageth the State under the Diadem, chooſeth his chiefe
+inſtrument <hi>Wentworth</hi> into office of beſt truſt, and both
+together weave the web, whoſe woofe was the miſlike of the people; flocks
+that love no fleaing the skin, can indure the ſhearing, this violent
+deporment bred a great diſtemper in the hearts of Scotland, and cauſed the
+Engliſh murmure, and draw to a defection or mutiny, but no power gotten by
+wickedneſſe of Miniſters is durable, nor to ſuch is any ſtability
+betwixt mediocrity and precipitation, which cauſe doubtfull and am<g ref="char:EOLhyphen"/>biguous
+ſpeeches of the Soveraigne, when the fault ought to be impoſed on the
+Miniſters: ſo dangerous are the wayes of Majeſty, that the folly of great
+ones ſtrive for ruine. Suppoſe thoſe miſconſtructions the multitude
+have of the Diadem force Majeſty to ſeeke advice and helpe from
+ſtrangers, when he cannot purchaſe duty at home, what a lamentable
+conſequence may follow, to invite an ancient enemy to the funerall
+obſequies of her liberties, the cure being worſe then the diſeaſe? And
+ſuch is our ſtate now, that the Houſe of Com<g ref="char:EOLhyphen"/>mons are conſtrained to be
+helpers, a Theame moſt diſplea<g ref="char:EOLhyphen"/>ſing to Soveraignty, though in a
+diſtracted ſtate a rule infalli<g ref="char:EOLhyphen"/>ble; on <hi>Wentworth</hi> the affection of
+the Soveraigne was ſo placed, as his power was boundleſſe in Ireland, and
+here un<g ref="char:EOLhyphen"/>ſufferable, though a Gentleman of tranſcendent parts, and of the
+higheſt ranke under the degree of Barony, yet of a ſwoulne ambition which
+no republike can indure, for all preferment paſ<g ref="char:EOLhyphen"/>ſeth by him, and all
+ſuits addreſſe to him, who finding ſo full a Moone of favour, thought
+he could not dye for Treaſon, the price of his life: ſurely I blame not a
+Prince for taking a repoſe<g ref="char:EOLhyphen"/>full friend to participate his intimate thoughts,
+to temper the affaires of ſtate, ſo as he infects not the effects of his
+prin<g ref="char:EOLhyphen"/>cipality, nor ſullieth his parentall reſpect to the ſubject, by
+hatred or Tyranny; but Strafford ſicke of the Kings well governing, ſtudied
+wayes of an arbitrary rule, thinking his high tyde of favor would never come to
+an ebbe of fortune, but ſhe fooled him at laſt to the loſſe of all he
+held in this life moſt deare; Great muſt be the art of ambition to keepe
+afloat the ſtreame of a power, <pb facs="tcp:174645:6"/>ſeeing ſublimity changeth as
+the ſpoke of the wheele, or as the hand of the Diall, at the higheſt 12.
+comes to one, <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ee affected the
+honour and ſervice of his Maſter with the ruine of the ſub<g ref="char:EOLhyphen"/>ject, beating
+downe competitors of the worthy Patriotſhip, and wrought by pride
+precipitation, when by humility hee might have had a good ſtation, for he
+ſhould have made it the operation of others, rather then any appetite of his
+owne to gormondize the property of ſubjects goods, and ſwallow their
+liberty, putting fetters on the Law, that nothing could be ac<g ref="char:EOLhyphen"/>compliſhed but
+what he and the Archb<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſhop
+pleaſed. And laſt<g ref="char:EOLhyphen"/>ly, they barre from the King alwaies to heare the groanes
+of his people, and wickedneſſe of their miniſtery. This fatall de<g ref="char:EOLhyphen"/>port of
+both might have proved Tragicall to the Kingdome, where the ingredience of
+popular humour is mixed as well with armed forces not to be disbanded without
+great danger, as with a mighty Schiſmaticall party, as well Papiſts,
+Browniſts, Anabaptiſts, people pleaſed to fiſh in troubled waters, and
+the maleconten<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed Clergy, who have
+corrupted th<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> pure foun<g ref="char:EOLhyphen"/>taines
+rather then they will be depreſſed in power (it is to bee feared) may all
+act a buſie part in this Tragicke ſtory. In ſuch deſignes Churchmen are
+never wanting to adde fuell to popular fires, for though they worke it not with
+the meaneſt, they ef<g ref="char:EOLhyphen"/>fect it by head and chiefe-cauſing weakneſſes in
+government, and oppreſſion of people, for it is not the beſt doctrine a
+warre with ſubjects to advance their Hierarchy, no Biſhop, no King. When
+the fi<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſt Church roſe by
+faſting and praying, therefore they ought not ſo much teach us rules of
+loyalty, as to know our owne duties in difficult points of R<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ligion, nor ought they make the
+Soveraigne believe the Parliament only breath out th<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ir paſſions in a time of liberty, and expreſſe
+the poverty of their Maſter to leſſen his reputation abroad and credit at
+home, when then the State is ſo feſtred, it is a paine to fetch out the
+dead fleſh without coraſives which they are conſtrained to, to keepe it
+from gangrening, when that their whole aime next to religion is to looke into
+the Kings neceſſities, to diſcharge the Armies, take away the
+impeachments of the Common<g ref="char:EOLhyphen"/>wealth, and provide for the royall ſuſtentation
+much weakned <pb facs="tcp:174645:6"/>by bad Counſells, ſo that he may be potent at
+home, and glo<g ref="char:EOLhyphen"/>rious abroad, beginning to ſet things in order when ſo great
+diſorder hath chalked the way to amendment, for a mighty expence ever ends in
+the rapine and ſpoile of ſubjects: but now if it pleaſe the King to
+follow the counſell of <hi>Machiavill,</hi> doe as the time permits, and be
+not weary of the ſtrict enquiry of the Parliament, he ſhall accompliſh as
+full a Soveraignity as ever, and greater. This may cauſe the King with
+incomparable wiſedome to ſuite himſelfe to the neceſſity of the Time,
+and expect future good from thoſe mean<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> it ſo fervently, and act it ſo painefully. The King delivered
+of ill counſells, by this bleſ<g ref="char:EOLhyphen"/>ſed fortune, freed and obeyed, may begin
+to ſearch the ground of the miſery, why that vertue and fortune, which had
+ſetled and maintained ſo long his Anceſtors in glory of Empire, ſeemes
+to be in a trance at this time, as if the Genious of the State had forſaken
+her, and found out (the way) the reaſon of this miſ<g ref="char:EOLhyphen"/>chiefe, namely a
+waſtfull hand too quicke for the fortunes and perſons of his people, the
+griping avarice of Miniſters, lawleſſe liberty of Martiall forces,
+uncivill actions of the Multitude, and affording too much care to greedy and
+unworthy Miniſters, whoſe counſell was more ſubtill then ſolid,
+ſeeing moderation, reward and puniſhment, are the ſupporters of Crownes,
+and to be juſt of word is required of Subjects from Kings them<g ref="char:EOLhyphen"/>ſelves, ſo
+ſhall he effect a wondrous change in the State, bring<g ref="char:EOLhyphen"/>ing the three Kingdomes
+home with wonder to his devotion, and their obedience laying his foundation of
+government on religion, quietneſſe and juſtice, ſo that peace and
+tranquility ſhall attend a long life though death be let in at laſt, and
+faſhion to his ſucceſſors a moſt royall paterne to follow from his
+expe<g ref="char:EOLhyphen"/>rience, and authority to make him ſuperior to Kings, and as he is the
+firſt King of his name in our Empire ſince the conqueſt, ſo ſhal he
+be moſt worthy to be ſtiled Britaines CHARLEMAINE, and be not only capable
+to governe theſe three Realmes, but the whole world, ſo that the wrongs of
+fortune ſometimes make Princes more then their proſperity both wiſe and
+for<g ref="char:EOLhyphen"/>tunate.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
